@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Unnati Asthana — Social Media & Content Marketer, on-camera creator, designer and 4× hackathon winner." />
+
+    <title>UA | Portfolio</title>
+
+    <link
+      rel="preload"
+      href="/assets/topographical_map_art_bg.svg"
+      as="image"
+      type="image/svg+xml"
+    />
+
+    <link
+      rel="preload"
+      href="/fonts/tanker/Tanker-Regular.woff2"
+      crossorigin="anonymous"
+      as="font"
+      type="font/woff2"
+    />
+
+    <link rel="icon" href="favicon.png" type="image/png" sizes="any" />
+    <link rel="apple-touch-icon" href="favicon.png" />
+
+    <link
+      rel="stylesheet"
+      href="/css/animations/loading-animations.css?v=1791225553300"
+      id="main-theme-sheet"
+    />
+    <link
+      rel="stylesheet"
+      href="/css/animations/index-animations.css?v=1791225553300"
+      id="main-theme-sheet"
+    />
+    <link
+      rel="stylesheet"
+      href="/css/style.min.css?v=1791225553300"
+      id="main-theme-sheet"
+    />
+
+    <!-- SCRIPTS FOR INTERACTIVE COMPONENTS -->
+
+    <script src="js/preloader.js" defer></script>
+    <script src="js/nav_menu.js" defer></script>
+    <script src="js/ticker_logic.js" defer></script>
+    <script src="js/load_icons.js" defer></script>
+    <script src="js/daily_quote.js" defer></script>
+    <script src="js/parallax_tilt.js" defer></script>
+    <script src="js/animations.js" defer></script>
+  </head>
+  <body>
+    <div id="loading-screen">
+      <div class="loader-matrix-container">
+        <div class="matrix-dot"></div>
+        <div class="matrix-dot"></div>
+        <div class="matrix-dot matrix-hero"></div>
+        <div class="matrix-dot"></div>
+      </div>
+    </div>
+
+    <main>
+      <!-- HERO SECTION WITH TOPOGRAPHICAL BACKGROUND -->
+      <header class="hero-section">
+        <!-- HERO CONTAINER FOR TEXT IDENTITIES -->
+
+        <nav class="navbar">
+          <div class="nav-container">
+            <a
+              href="index.html"
+              class="logo-link"
+              alt="UA-logo"
+              aria-label="Unnati Asthana Home"
+            >
+              <img src="assets/logo-ua.jpg" alt="UA logo" class="logo-img" style="height:44px;width:auto;border-radius:10px;display:block;" />
+            </a>
+
+            <!-- Hamburger Toggle (Hidden on desktop) -->
+            <button
+              class="menu-toggle"
+              id="menu-toggle"
+              aria-label="Toggle navigation"
+            >
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <ul class="nav-links" id="nav-links">
+              <li><a href="projects.html" class="nav-item">Projects</a></li>
+              <li>
+                <a
+                  href="assets/Unnati_Asthana_Resume.pdf"
+                  class="nav-item"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Resume</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/unnatiasthana"
+                  class="nav-item"
+                  target="_blank"
+                  >Github</a
+                >
+              </li>
+              <li><a href="contact.html" class="nav-item">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="hero-content">
+          <div class="headline-stack">
+            <h1 class="static-line">
+              HEY, I'M
+              <a
+                href="contact.html"
+                class="stroke-text name-button"
+                data-text="UNNATI"
+                >UNNATI</a
+              >
+            </h1>
+
+            <div class="action-line">
+              <span class="action-static">AND I'M&nbsp;</span>
+              <!-- The Ticker Window -->
+              <span class="ticker-wrapper">
+                <span class="ticker-track" id="ticker-track">
+                  <span class="ticker-item">A CONTENT STRATEGIST</span>
+                  <span class="ticker-item">AN ON-CAMERA FACE</span>
+                  <span class="ticker-item">A STORYTELLER</span>
+                  <span class="ticker-item">A MULTI-HACKATHON WINNER</span>
+                  <span class="ticker-item">ALWAYS BUILDING</span>
+                  <span class="ticker-item">A DESIGNER</span>
+                  <span class="ticker-item">AN INNOVATOR</span>
+                  <span class="ticker-item">A TECH STUDENT</span>
+                  <span class="ticker-item">ALWAYS LEARNING</span>
+                  <span class="ticker-item-gold">STILL LEARNING.</span>
+                  <span class="ticker-item">A CONTENT STRATEGIST</span>
+                  <span class="ticker-item">AN ON-CAMERA FACE</span>
+                </span>
+              </span>
+            </div>
+            <div class="software-stack-container">
+              <p class="stack-label">toolkit</p>
+
+              <div class="icon-flex-row">
+                <div class="icon-item">
+                  <img
+                    src="assets/icons/figma.svg"
+                    alt="Figma"
+                    class="stack-icon"
+                  />
+                </div>
+                <div class="icon-item">
+                  <img
+                    src="assets/icons/canva.svg"
+                    alt="Canva"
+                    class="stack-icon"
+                  />
+                </div>
+                <div class="icon-item">
+                  <img
+                    src="assets/icons/photoshop.svg"
+                    alt="Adobe Photoshop"
+                    class="stack-icon"
+                  />
+                </div>
+                <div class="icon-item">
+                  <img
+                    src="assets/icons/premierepro.svg"
+                    alt="Adobe Premiere Pro"
+                    class="stack-icon"
+                  />
+                </div>
+                <div class="icon-item">
+                  <img
+                    src="assets/icons/aftereffects.svg"
+                    alt="Adobe After Effects"
+                    class="stack-icon"
+                  />
+                </div>
+                <div class="icon-item">
+                  <img
+                    src="assets/icons/lightroom.svg"
+                    alt="Adobe Lightroom"
+                    class="stack-icon"
+                  />
+                </div>
+                <div class="icon-item">
+                  <img
+                    src="assets/icons/illustrator.svg"
+                    alt="Adobe Illustrator"
+                    class="stack-icon"
+                  />
+                </div>
+              </div>
+
+              <div class="icon-flex-row-lang tertiary-stack">
+                <div class="icon-item">
+                  <div
+                    class="link-icon"
+                    data-src="assets/icons/lang/html.svg"
+                  ></div>
+                </div>
+                <div class="icon-item">
+                  <div
+                    class="link-icon"
+                    data-src="assets/icons/lang/css.svg"
+                  ></div>
+                </div>
+                <div class="icon-item">
+                  <div
+                    class="link-icon"
+                    data-src="assets/icons/lang/python.svg"
+                  ></div>
+                </div>
+                <div class="icon-item">
+                  <div
+                    class="link-icon"
+                    data-src="assets/icons/lang/sql.svg"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </main>
+
+    <section class="blog-index">
+      <div class="ascii-leaves-parent-container">
+        <div
+          id="ascii-leaves-container"
+          data-src="assets/ascii-leaves.svg"
+        ></div>
+      </div>
+      <div class="blog-container">
+        <div class="blog-contents">
+          <h1 class="blog-heading-text">EXPERIENCE</h1>
+
+          <div class="blog-index-list" id="blog-index-list">
+            <a href="experience/nst.html" class="blog-single-link">
+              <section class="blog-index-card">
+                <div class="blog-index-header">
+                  <span class="blog-index-year">2026 – Present</span>
+                  <span class="blog-index-title">Content &amp; Marketing Associate — Newton School of Technology</span>
+                </div>
+              </section>
+            </a>
+            <a href="experience/gdsc.html" class="blog-single-link">
+              <section class="blog-index-card">
+                <div class="blog-index-header">
+                  <span class="blog-index-year">Aug 2025 – Sep 2026</span>
+                  <span class="blog-index-title">Social Media &amp; Content Lead — Google Developer Student Club</span>
+                </div>
+              </section>
+            </a>
+            <a href="experience/devclub.html" class="blog-single-link">
+              <section class="blog-index-card">
+                <div class="blog-index-header">
+                  <span class="blog-index-year">Aug – Dec 2025</span>
+                  <span class="blog-index-title">Social Media Marketing &amp; Content — DevClub, Rishihood University</span>
+                </div>
+              </section>
+            </a>
+            <a href="https://instagram.com/yours.unnatea" class="blog-single-link" target="_blank">
+              <section class="blog-index-card">
+                <div class="blog-index-header">
+                  <span class="blog-index-year">Ongoing</span>
+                  <span class="blog-index-title">Instagram Creator &amp; Brand Partnerships — @yours.unnatea · 1.2M+ Reach</span>
+                </div>
+              </section>
+            </a>
+            <a href="experience/edulenza.html" class="blog-single-link">
+              <section class="blog-index-card">
+                <div class="blog-index-header">
+                  <span class="blog-index-year">Mar – May 2026</span>
+                  <span class="blog-index-title">Marketing Intern — Edulenza (Remote)</span>
+                </div>
+              </section>
+            </a>
+          </div>
+
+          <div class="blog-btn-wrapper">
+            <a href="experience.html" class="blog-page-link"> View All Experience </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-index">
+      <div class="ascii-leaf-parent-container">
+        <div id="ascii-leaf-container" data-src="assets/ascii-leaf.svg"></div>
+      </div>
+      <div class="project-container">
+        <div class="project-contents">
+          <h1 class="project-heading-text">PROJECTS</h1>
+
+          <div class="project-list">
+            <!-- VoltNavigator -->
+            <div class="project-card-link">
+              <section class="project-index-card" style="position:relative;">
+                <div class="project-index-header">
+                  <span class="project-index-title">
+                    <a
+                      href="https://voltnavigator.vercel.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style="color:inherit;text-decoration:none;"
+                    >VoltNavigator</a>
+                    <a
+                      href="https://github.com/unnatiasthana/VoltNavigator"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="project-github-badge"
+                    >GitHub ↗</a>
+                  </span>
+                  <span class="project-index-year">2026</span>
+                </div>
+                <p class="project-index-desc">
+                  Took an EV charging-station finder from user problem to live
+                  product on the Open Charge Map API, owning naming, UI design
+                  and the landing-page story.
+                </p>
+                <a
+                  href="https://voltnavigator.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-show-badge"
+                >Show ↗</a>
+              </section>
+            </div>
+
+            <!-- Pixaura -->
+            <div class="project-card-link">
+              <section class="project-index-card" style="position:relative;">
+                <div class="project-index-header">
+                  <span class="project-index-title">
+                    <a
+                      href="https://pixaura-beige.vercel.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style="color:inherit;text-decoration:none;"
+                    >Pixaura</a>
+                    <a
+                      href="https://github.com/unnatiasthana/Pixaura"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="project-github-badge"
+                    >GitHub ↗</a>
+                  </span>
+                  <span class="project-index-year">2025</span>
+                </div>
+                <p class="project-index-desc">
+                  Built a social platform around the positioning bet that a feed
+                  rewarding kindness beats one rewarding volume, expressed
+                  through the "Kind Words" feature and its visual language.
+                </p>
+                <a
+                  href="https://pixaura-beige.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-show-badge"
+                >Show ↗</a>
+              </section>
+            </div>
+          </div>
+
+          <div class="project-btn-wrapper">
+            <a href="projects.html" class="projects-page-link">
+              View All Projects
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="bento-grid-container">
+      <div class="bento-grid">
+        <div class="parallax-card bento-item item-0">
+          <img
+            src="assets/bento-grid/0.webp"
+            alt="0"
+            width="1500"
+            height="4000"
+            loading="lazy"
+          />
+        </div>
+        <div class="parallax-card bento-item item-1">
+          <img
+            src="assets/bento-grid/1.webp"
+            alt="1"
+            width="3000"
+            height="1500"
+            loading="lazy"
+          />
+        </div>
+        <div class="parallax-card bento-item item-2">
+          <img
+            src="assets/bento-grid/2.webp"
+            alt="2"
+            width="1500"
+            height="3000"
+            loading="lazy"
+          />
+        </div>
+        <div class="parallax-card bento-item item-3">
+          <img
+            src="assets/bento-grid/3.webp"
+            alt="3"
+            width="3000"
+            height="1500"
+            loading="lazy"
+          />
+        </div>
+        <div class="parallax-card bento-item item-4">
+          <img
+            src="assets/bento-grid/4.webp"
+            alt="4"
+            width="3000"
+            height="1500"
+            loading="lazy"
+          />
+        </div>
+        <div class="parallax-card bento-item item-5">
+          <img
+            src="assets/bento-grid/5.webp"
+            alt="5"
+            width="3000"
+            height="2000"
+            loading="lazy"
+          />
+        </div>
+        <div class="parallax-card bento-item item-6">
+          <img
+            src="assets/bento-grid/6.webp"
+            alt="6"
+            width="1586"
+            height="1058"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+
+    <section class="daily-quote-section">
+      <div class="quote-container">
+        <p id="daily-quote-text" class="quote-text">Loading inspiration...</p>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <h1 class="footer-h1">Unnati Asthana</h1>
+        <p class="footer-p">
+          Made with strategy, Figma, and a lot of late-night Reels. Social media
+          &amp; content marketer who works on camera, behind the camera and on the
+          content plan. Feel free to reach out — always open to collabs, briefs
+          and conversations.
+        </p>
+
+        <div class="footer-socials">
+          <a
+            href="https://github.com/unnatiasthana"
+            class="social-link"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <img
+              src="assets/icons/socials/github.svg"
+              class="social-icon"
+              alt="GitHub"
+            />
+          </a>
+
+          <a
+            href="https://instagram.com/yours.unnatea"
+            class="social-link"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <img
+              src="assets/icons/socials/instagram.svg"
+              class="social-icon"
+              alt="Instagram"
+            />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/unnati-asthana-95a426318/"
+            class="social-link"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <img
+              src="assets/icons/socials/linkedin.svg"
+              class="social-icon"
+              alt="LinkedIn"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
