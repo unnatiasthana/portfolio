@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.querySelectorAll(
-    ".project-heading-text, .project-card-link, .project-btn-wrapper, .blog-heading-text, .blog-single-link, .blog-btn-wrapper"
+    ".project-heading-text, .project-card-link, .project-btn-wrapper, .blog-heading-text, .blog-single-link, .blog-btn-wrapper, .slide-effect-right, .scroll-fade-up, .scroll-fade-left"
   ).forEach((el) => standardObserver.observe(el));
 
   // Track regular content text containers
